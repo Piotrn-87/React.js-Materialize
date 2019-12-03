@@ -5,10 +5,8 @@ import ItemsList from "./ItemsList";
 class App extends React.Component {
   state = {
     items: [
-      {
-        id: 1,
-        content: "Training React.js"
-      }
+      { id: 1, content: "Training React.js" },
+      { id: 2, content: "Get rid of trash" }
     ]
   };
 
@@ -33,8 +31,8 @@ class App extends React.Component {
     return (
       <div className="container">
         <h1 className="center blue-text">Lets get ready to rumble ... !!! </h1>
+        <ItemsList stuff={this.state.items} deleteItems={this.deleteItems} />
         <Form addItems={this.addItems} />
-        <ItemsList items={this.state} deleteItems={this.deleteItems} />
       </div>
     );
   }

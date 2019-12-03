@@ -25,7 +25,7 @@ class Form extends React.Component {
     return (
       <div>
         <form onSubmit={this.handleSubmit}>
-          <label className="left purple-text">Add some stuff</label>
+          <label className="left blue-text">Add some stuff</label>
           <input
             type="text"
             onChange={this.handleChange}

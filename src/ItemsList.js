@@ -1,11 +1,11 @@
 import React from "react";
 
-const ItemsList = ({ items, deleteItems }) => {
-  const itemsList = items.length ? (
-    items.map(item => {
+const ItemsList = ({ stuff, deleteItems }) => {
+  const itemsList = stuff.length ? (
+    stuff.map(item => {
       return (
         <div className="collection-item" key={item.id}>
-          <span className="green-text">{items.content}</span>
+          <span className="green-text">{item.content}</span>
           <button
             className="right"
             onClick={() => {
@@ -18,7 +18,7 @@ const ItemsList = ({ items, deleteItems }) => {
       );
     })
   ) : (
-    <p> You have no item list </p>
+    <p className="red-text center"> You have no item list </p>
   );
 
   return <div className="collection">{itemsList}</div>;
