@@ -1,5 +1,6 @@
 import React from "react";
 import Form from "./Form";
+import ItemsList from "./ItemsList";
 
 class App extends React.Component {
   state = {
@@ -15,6 +16,9 @@ class App extends React.Component {
     const deleteItems = this.state.items.filter(item => {
       return item.id !== items;
     });
+    this.setState({
+      items: deleteItems
+    });
   };
 
   addItems = item => {
@@ -29,7 +33,8 @@ class App extends React.Component {
     return (
       <div className="container">
         <h1 className="center blue-text">Lets get ready to rumble ... !!! </h1>
-        <Form />
+        <Form addItems={this.addItems} />
+        <ItemsList items={this.state} deleteItems={this.deleteItems} />
       </div>
     );
   }
