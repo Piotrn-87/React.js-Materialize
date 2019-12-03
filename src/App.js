@@ -4,10 +4,7 @@ import ItemsList from "./ItemsList";
 
 class App extends React.Component {
   state = {
-    items: [
-      { id: 1, content: "Training React.js" },
-      { id: 2, content: "Get rid of trash" }
-    ]
+    items: [{ id: 1, content: "Training React.js" }]
   };
 
   deleteItems = items => {
