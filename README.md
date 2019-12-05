@@ -13,3 +13,5 @@ npm start
 # Build for production
 npm run build
 ```
+
+Version 1.0.0
