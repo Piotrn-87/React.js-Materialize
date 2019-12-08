@@ -25,13 +25,19 @@ class Form extends React.Component {
     return (
       <div>
         <form onSubmit={this.handleSubmit}>
-          <label className="left blue-text">Add some stuff</label>
           <input
+            placeholder="Add some stuff"
             type="text"
             onChange={this.handleChange}
             value={this.state.content}
           ></input>
-          <button onSubmit={this.handleSubmit}>Submit</button>
+          <button
+            className="btn waves-effect waves-light"
+            onSubmit={this.handleSubmit}
+          >
+            <i className="material-icons right"> send</i>
+            Submit
+          </button>
         </form>
       </div>
     );
