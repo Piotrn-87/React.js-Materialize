@@ -35,7 +35,7 @@ class Form extends React.Component {
             className="btn waves-effect waves-light"
             onSubmit={this.handleSubmit}
           >
-            <i className="material-icons right"> send</i>
+            <i className="material-icons right">send</i>
             Submit
           </button>
         </form>

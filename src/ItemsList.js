@@ -7,7 +7,7 @@ const ItemsList = ({ stuff, deleteItems }) => {
         <div className="collection-item" key={item.id}>
           <span className="green-text">{item.content}</span>
           <button
-            className="right"
+            className="right waves-effect waves-light btn-small"
             onClick={() => {
               deleteItems(item.id);
             }}
