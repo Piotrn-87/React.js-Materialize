@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/react_with_materialize/static/css/main.34de6062.chunk.css",
+    "main.js": "/react_with_materialize/static/js/main.652d6fc4.chunk.js",
+    "main.js.map": "/react_with_materialize/static/js/main.652d6fc4.chunk.js.map",
+    "runtime-main.js": "/react_with_materialize/static/js/runtime-main.2579c23d.js",
+    "runtime-main.js.map": "/react_with_materialize/static/js/runtime-main.2579c23d.js.map",
+    "static/js/2.493b9fc7.chunk.js": "/react_with_materialize/static/js/2.493b9fc7.chunk.js",
+    "static/js/2.493b9fc7.chunk.js.map": "/react_with_materialize/static/js/2.493b9fc7.chunk.js.map",
+    "index.html": "/react_with_materialize/index.html",
+    "precache-manifest.c0fffbdf58e7bb5a549249d35dff8857.js": "/react_with_materialize/precache-manifest.c0fffbdf58e7bb5a549249d35dff8857.js",
+    "service-worker.js": "/react_with_materialize/service-worker.js",
+    "static/css/main.34de6062.chunk.css.map": "/react_with_materialize/static/css/main.34de6062.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2579c23d.js",
+    "static/js/2.493b9fc7.chunk.js",
+    "static/css/main.34de6062.chunk.css",
+    "static/js/main.652d6fc4.chunk.js"
+  ]
+}
