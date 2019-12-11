@@ -1,6 +1,7 @@
 import React from "react";
 import Form from "./Form";
 import ItemsList from "./ItemsList";
+import "./App.css";
 
 class App extends React.Component {
   state = {

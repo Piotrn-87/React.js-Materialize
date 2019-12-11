@@ -4,7 +4,7 @@ const ItemsList = ({ stuff, deleteItems }) => {
   const itemsList = stuff.length ? (
     stuff.map(item => {
       return (
-        <div className="collection-item" key={item.id}>
+        <div className="Active collection-item" key={item.id}>
           <span className="green-text">{item.content}</span>
           <button
             className="waves-effect waves-light btn right"
