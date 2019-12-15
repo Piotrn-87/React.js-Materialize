@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/React.js-Materialize/static/css/main.fa73342a.chunk.css",
-    "main.js": "/React.js-Materialize/static/js/main.688efc9c.chunk.js",
-    "main.js.map": "/React.js-Materialize/static/js/main.688efc9c.chunk.js.map",
+    "main.js": "/React.js-Materialize/static/js/main.55fd727a.chunk.js",
+    "main.js.map": "/React.js-Materialize/static/js/main.55fd727a.chunk.js.map",
     "runtime-main.js": "/React.js-Materialize/static/js/runtime-main.1c0ac481.js",
     "runtime-main.js.map": "/React.js-Materialize/static/js/runtime-main.1c0ac481.js.map",
     "static/js/2.493b9fc7.chunk.js": "/React.js-Materialize/static/js/2.493b9fc7.chunk.js",
     "static/js/2.493b9fc7.chunk.js.map": "/React.js-Materialize/static/js/2.493b9fc7.chunk.js.map",
     "index.html": "/React.js-Materialize/index.html",
-    "precache-manifest.64e48da9f6ff71212c76691c6557599b.js": "/React.js-Materialize/precache-manifest.64e48da9f6ff71212c76691c6557599b.js",
+    "precache-manifest.2c26ac516c7876d6c037a054d6d7d8a8.js": "/React.js-Materialize/precache-manifest.2c26ac516c7876d6c037a054d6d7d8a8.js",
     "service-worker.js": "/React.js-Materialize/service-worker.js",
     "static/css/main.fa73342a.chunk.css.map": "/React.js-Materialize/static/css/main.fa73342a.chunk.css.map"
   },
@@ -16,6 +16,6 @@
     "static/js/runtime-main.1c0ac481.js",
     "static/js/2.493b9fc7.chunk.js",
     "static/css/main.fa73342a.chunk.css",
-    "static/js/main.688efc9c.chunk.js"
+    "static/js/main.55fd727a.chunk.js"
   ]
 }

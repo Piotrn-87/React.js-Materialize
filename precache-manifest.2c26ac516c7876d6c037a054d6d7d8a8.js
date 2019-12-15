@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "12c1602b47552520170812fd663d98e6",
+    "revision": "b7e2c1032a063b9f4ae9ff963278a60f",
     "url": "/React.js-Materialize/index.html"
   },
   {
-    "revision": "ee456a8ba8808eac6708",
+    "revision": "6adb6f041cd16a083cfa",
     "url": "/React.js-Materialize/static/css/main.fa73342a.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/React.js-Materialize/static/js/2.493b9fc7.chunk.js"
   },
   {
-    "revision": "ee456a8ba8808eac6708",
-    "url": "/React.js-Materialize/static/js/main.688efc9c.chunk.js"
+    "revision": "6adb6f041cd16a083cfa",
+    "url": "/React.js-Materialize/static/js/main.55fd727a.chunk.js"
   },
   {
     "revision": "65302c6d813a3b1a2c35",
